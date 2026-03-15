@@ -1,9 +1,12 @@
 # Git Test
+  ![Git Test Philosophy](./assets/git-test.png)
 
 **Git Test** is a minimal **terminal-based (TUI) exam** designed to test and improve your **Git knowledge**.  
 It is built using the **`workshopper-adventure`** library from the **NodeSchool ecosystem**, allowing users to progress through exercises step-by-step in the terminal.
 
 Each task must be completed successfully to unlock the next one, creating a guided learning and testing experience directly in the command line.
+
+  ![Example of tasks](./assets/TUI.png)
 
 ---
 
@@ -39,11 +42,6 @@ Each exercise validates the user's solution before allowing them to continue to 
 For now, the project includes two basic exercices and they are run locally.
 
 ### 1. Clone the repository
-
-```bash
-git clone <repo-url>
-cd <repo-name>
-```
 ### 2. Install dependencies
 ```bash
 npm install
